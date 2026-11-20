@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Sentora — админка</title>
+<meta name="theme-color" content="#F5F2ED">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%231D1A17'/%3E%3Crect x='26' y='12' width='12' height='8' rx='1.5' fill='%23C1B9AE'/%3E%3Crect x='18' y='22' width='28' height='30' rx='4' fill='none' stroke='%23C1B9AE' stroke-width='3.5'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<header class="a-head">
+  <div class="a-wrap a-head__row">
+    <a class="a-logo" href="./" target="_blank" rel="noopener"><b>SENTORA</b><small>админка</small></a>
+    <div class="a-head__right" id="headRight" hidden>
+      <a class="a-link" href="./" target="_blank" rel="noopener">Сайт ↗</a>
+      <button class="a-link" id="logout">Выйти</button>
+    </div>
+  </div>
+</header>
+
+<!-- LOGIN -->
+<main class="a-login" id="loginView" hidden>
+  <form class="a-card a-login__card" id="loginForm">
+    <div class="a-login__mark">S</div>
+    <h1>Вход в админку</h1>
+    <p class="a-muted">Здесь меняются цены, добавляются и удаляются ароматы на сайте Sentora.</p>
+    <label class="a-field"><span>Пароль</span><input type="password" id="pw" autocomplete="current-password" required></label>
+    <p class="a-err" id="loginErr" hidden></p>
+    <button class="a-btn a-btn--dark a-btn--block" type="submit" id="loginBtn">Войти</button>
+  </form>
+</main>
+
+<!-- APP -->
+<main class="a-wrap a-app" id="appView" hidden>
+  <div class="a-top">
+    <div>
+      <h1>Каталог</h1>
+      <p class="a-muted" id="updatedInfo"></p>
+    </div>
+  </div>
+
+  <nav class="a-tabs" id="tabs">
+    <button class="a-tab is-active" data-tab="rasp">Распив <span id="nRasp"></span></button>
+    <button class="a-tab" data-tab="custom">Под заказ <span id="nCustom"></span></button>
+    <button class="a-tab" data-tab="settings">Настройки</button>
+  </nav>
+
+  <section id="listView">
+    <div class="a-toolbar">
+      <input type="search" class="a-input" id="q" placeholder="Поиск по названию или бренду…">
+      <select class="a-input a-select" id="filterSel">
+        <option value="all">Все</option>
+        <option value="visible">Только на сайте</option>
+        <option value="hidden">Только скрытые</option>
+      </select>
+      <button class="a-btn a-btn--dark" id="addBtn">＋ Добавить</button>
+    </div>
+    <div class="a-list" id="list"></div>
+  </section>
+
+  <section id="settingsView" hidden>
+    <div class="a-card a-settings">
+      <label class="a-field"><span>Стоимость доставки по Казахстану, ₸</span><input type="number" min="0" step="50" class="a-input" id="setDelivery"></label>
+      <p class="a-muted">Сумма показывается на сайте и добавляется к заказу в корзине.</p>
+    </div>
+  </section>
+</main>
+
+<!-- save bar -->
+<div class="a-savebar" id="saveBar" hidden>
+  <div class="a-wrap a-savebar__row">
+    <span id="saveText">Есть несохранённые изменения</span>
+    <div class="a-savebar__btns">
+      <button class="a-btn a-btn--ghost-light" id="discardBtn">Отменить</button>
+      <button class="a-btn a-btn--light" id="saveBtn">Сохранить на сайте</button>
+    </div>
+  </div>
+</div>
+
+<!-- editor -->
+<div class="a-modal" id="editor" hidden>
+  <div class="a-modal__overlay" data-close></div>
+  <form class="a-modal__panel" id="edForm" novalidate>
+    <div class="a-modal__head">
+      <h2 id="edTitle">Аромат</h2>
+      <button type="button" class="a-x" data-close aria-label="Закрыть">✕</button>
+    </div>
+    <div class="a-modal__body" id="edBody"></div>
+    <div class="a-modal__foot">
+      <button type="button" class="a-btn a-btn--ghost" data-close>Отмена</button>
+      <button type="submit" class="a-btn a-btn--dark">Готово</button>
+    </div>
+  </form>
+</div>
+
+<div class="a-toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="admin.js"></script>
+</body>
+</html>

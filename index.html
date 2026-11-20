@@ -36,11 +36,11 @@
 
 <div class="topbar">
   <div class="topbar__track">
-    <span>Доставка по всему Казахстану — 1 700 ₸</span><span class="dot">◆</span>
+    <span>Доставка по всему Казахстану — <span data-delivery>1 700 ₸</span></span><span class="dot">◆</span>
     <span>Распив от 3 мл</span><span class="dot">◆</span>
     <span>Оригиналы и люксовые аналоги</span><span class="dot">◆</span>
     <span>Заказ в WhatsApp за пару минут</span><span class="dot">◆</span>
-    <span>Доставка по всему Казахстану — 1 700 ₸</span><span class="dot">◆</span>
+    <span>Доставка по всему Казахстану — <span data-delivery>1 700 ₸</span></span><span class="dot">◆</span>
     <span>Распив от 3 мл</span><span class="dot">◆</span>
     <span>Оригиналы и люксовые аналоги</span><span class="dot">◆</span>
     <span>Заказ в WhatsApp за пару минут</span><span class="dot">◆</span>
@@ -92,7 +92,7 @@
       <ul class="hero__facts reveal">
         <li><b>3–20 мл</b><span>удобные объёмы</span></li>
         <li><b>100+</b><span>ароматов в подборке</span></li>
-        <li><b>1 700 ₸</b><span>доставка по РК</span></li>
+        <li><b data-delivery>1 700 ₸</b><span>доставка по РК</span></li>
       </ul>
     </div>
     <div class="hero__visual reveal">
@@ -109,8 +109,8 @@
       </div>
       <div class="hero__badge hero__badge--a">
         <small>Распив</small>
-        <b>от 1 000 ₸</b>
-        <span>за 3 мл аромата</span>
+        <b data-minprice>от 1 000 ₸</b>
+        <span>за пробник аромата</span>
       </div>
       <div class="hero__badge hero__badge--b">
         <svg><use href="#i-truck"/></svg>
@@ -215,7 +215,7 @@
   <div class="container benefits__grid">
     <div class="benefit reveal"><svg><use href="#i-drop"/></svg><h3>Формат от 3 мл</h3><p>Попробуй аромат на себе, прежде чем брать большой флакон.</p></div>
     <div class="benefit reveal"><svg><use href="#i-spark"/></svg><h3>Подборка брендов</h3><p>Восточная и европейская парфюмерия — только проверенные композиции.</p></div>
-    <div class="benefit reveal"><svg><use href="#i-truck"/></svg><h3>Доставка по Казахстану</h3><p>Отправляем в любой город. Стоимость доставки — 1&nbsp;700&nbsp;₸.</p></div>
+    <div class="benefit reveal"><svg><use href="#i-truck"/></svg><h3>Доставка по Казахстану</h3><p>Отправляем в любой город. Стоимость доставки — <span data-delivery>1&nbsp;700&nbsp;₸</span>.</p></div>
     <div class="benefit reveal"><svg><use href="#i-gift"/></svg><h3>Помощь с выбором</h3><p>Подскажем аромат под твой стиль, сезон или в подарок.</p></div>
   </div>
 </section>
@@ -287,7 +287,7 @@
       <p class="eyebrow">Доставка</p>
       <h2>В любой уголок <em>Казахстана</em></h2>
       <p>Отправляем любимые ароматы по всей стране. Стоимость доставки фиксированная и оплачивается отдельно от заказа.</p>
-      <div class="delivery__price"><span>1 700 ₸</span> доставка по Казахстану</div>
+      <div class="delivery__price"><span data-delivery>1 700 ₸</span> доставка по Казахстану</div>
     </div>
     <div class="delivery__img">
       <img src="img/custom/perfume-040.avif" alt="Флакон парфюма" loading="lazy">
@@ -319,7 +319,7 @@
       </details>
       <details>
         <summary>Сколько стоит и сколько идёт доставка?</summary>
-        <p>Доставка по Казахстану — 1 700 ₸, оплачивается отдельно. Флаконы под заказ едут до нас 10–15 дней и ещё 5–7 дней до вас — сроки ориентировочные.</p>
+        <p>Доставка по Казахстану — <span data-delivery>1 700 ₸</span>, оплачивается отдельно. Флаконы под заказ едут до нас 10–15 дней и ещё 5–7 дней до вас — сроки ориентировочные.</p>
       </details>
       <details>
         <summary>Можно ли заказать аромат, которого нет на сайте?</summary>
@@ -392,7 +392,7 @@
     <div class="drawer__body" id="cartItems"></div>
     <div class="drawer__foot" id="cartFoot">
       <div class="sum-row"><span>Ароматы</span><b id="cartSum">0 ₸</b></div>
-      <div class="sum-row sum-row--muted"><span>Доставка по Казахстану</span><span>1 700 ₸</span></div>
+      <div class="sum-row sum-row--muted"><span>Доставка по Казахстану</span><span data-delivery>1 700 ₸</span></div>
       <div class="sum-row sum-row--total"><span>Итого</span><b id="cartTotal">0 ₸</b></div>
       <button class="btn btn--wa btn--block" id="checkout"><svg><use href="#i-wa"/></svg> Оформить в WhatsApp</button>
       <p class="drawer__hint">Откроется чат с готовым сообщением. Заказ уйдёт только после того, как вы его отправите.</p>
@@ -425,7 +425,6 @@
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="custom-data.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

@@ -2,38 +2,30 @@
 'use strict';
 
 var WA = '77002505208';
-var DELIVERY = 1700;
 var VOLS = [3,5,10,15,20];
 var DEFAULT_ML = 5;
-
-var CATALOG = [
-  {id:'khamrah-qahwa',brand:'Lattafa',name:'Khamrah Qahwa',cat:'arabic',desc:'Пряный · кофейный · сладкий',top:'Имбирь · корица · кардамон',heart:'Пралине · засахаренные фрукты · белые цветы',base:'Кофе · ваниль · бобы тонка · бензоин',tags:['Пряные','Кофейные','Сладкие','Ванильные'],prices:{3:1000,5:1500,10:2200,15:3100,20:4000}},
-  {id:'fakhar-black',brand:'Lattafa',name:'Fakhar Black',cat:'arabic',desc:'Ароматический · свежий · древесный',top:'Яблоко · бергамот · имбирь',heart:'Лаванда · шалфей · ягоды можжевельника',base:'Бобы тонка · амбра · кедр · ветивер',tags:['Свежие','Древесные'],prices:{3:1100,5:1600,10:2200,15:3100,20:4000}},
-  {id:'asad-bourbon',brand:'Lattafa',name:'Asad Bourbon',cat:'arabic',desc:'Пряный · тёплый · ванильный',top:'Розовый перец · лаванда · слива мирабель',heart:'Какао · давана · мускатный орех',base:'Ваниль · амбра · ветивер',tags:['Пряные','Ванильные','Сладкие'],prices:{3:1000,5:1500,10:2400,15:3400,20:4400}},
-  {id:'bade-al-oud-glory',brand:'Lattafa',name:'Bade al Oud for Glory',cat:'arabic',desc:'Уд · специи · древесные ноты',top:'Шафран · мускатный орех · лаванда',heart:'Уд · пачули',base:'Уд · пачули · мускус',tags:['Удовые','Пряные','Древесные'],prices:{3:1200,5:1700,10:2700,15:3800,20:4900}},
-  {id:'hawas-fire',brand:'Rasasi',name:'Hawas Fire',cat:'arabic',desc:'Яркий · фруктовый · пряный',top:'Бергамот · лимон · фруктовые аккорды',heart:'Специи · жасмин · морские аккорды',base:'Амбра · древесные ноты · мускус',tags:['Фруктовые','Пряные','Сладкие'],prices:{3:1400,5:2000,10:3000,15:4300,20:5500}},
-  {id:'hawas-ice',brand:'Rasasi',name:'Hawas Ice',cat:'arabic',desc:'Свежий · прохладный · акватический',top:'Яблоко · лимон · бергамот',heart:'Морские ноты · слива · апельсиновый цвет',base:'Мускус · амбра · древесные ноты',tags:['Свежие','Акватические','Цитрусовые'],prices:{3:1300,5:1900,10:2800,15:4000,20:5100}},
-  {id:'afnan-9pm',brand:'Afnan',name:'9PM',cat:'arabic',desc:'Сладкий · фруктовый · вечерний',top:'Яблоко · корица · лаванда · бергамот',heart:'Апельсиновый цвет · ландыш',base:'Ваниль · бобы тонка · амбра · пачули',tags:['Сладкие','Фруктовые','Ванильные'],prices:{3:1000,5:1500,10:2000,15:2800,20:3600}},
-  {id:'cdn-intense-man',brand:'Armaf',name:'Club de Nuit Intense Man',cat:'arabic',desc:'Цитрусы · дымные ноты · древесина',top:'Лимон · ананас · бергамот · чёрная смородина',heart:'Берёза · жасмин · роза',base:'Мускус · амбра · пачули · ваниль',tags:['Цитрусовые','Древесные','Фруктовые'],prices:{3:1200,5:1800,10:3000,15:4300,20:5500}},
-  {id:'le-male-le-parfum',brand:'Jean Paul Gaultier',name:'Le Male Le Parfum',cat:'european',desc:'Кардамон · лаванда · ваниль',top:'Кардамон',heart:'Лаванда · ирис',base:'Ваниль · древесные аккорды',tags:['Пряные','Ванильные','Сладкие'],prices:{3:1600,5:2400,10:4000,15:5700,20:7300}},
-  {id:'le-beau-le-parfum',brand:'Jean Paul Gaultier',name:'Le Beau Le Parfum',cat:'european',desc:'Кокос · древесные ноты · бобы тонка',top:'Ананас · ирис · имбирь',heart:'Кокос · древесные аккорды',base:'Бобы тонка · сандал',tags:['Кокосовые','Древесные','Сладкие'],prices:{3:1900,5:2800,10:4700,15:6700,20:8600}},
-  {id:'the-most-wanted',brand:'Azzaro',name:'The Most Wanted',cat:'european',desc:'Пряный · тёплый · сладкий',top:'Кардамон',heart:'Карамель · тёплые пряные ноты',base:'Амбра · древесные ноты',tags:['Пряные','Сладкие'],prices:{3:2000,5:3000,10:4800,15:6800,20:8700}},
-  {id:'spicebomb-extreme',brand:'Viktor & Rolf',name:'Spicebomb Extreme',cat:'european',desc:'Табак · специи · ваниль',top:'Чёрный перец · шафран · грейпфрут',heart:'Корица · тмин · лаванда',base:'Табак · ваниль · амбра',tags:['Табачные','Пряные','Ванильные'],prices:{3:2000,5:3000,10:4800,15:6800,20:8700}},
-  {id:'hedonistic',brand:'Clive Christian',name:'Hedonistic',cat:'european',desc:'Насыщенный · древесный · пряный',top:'Цитрусы · специи',heart:'Древесные ноты · ароматические аккорды',base:'Амбра · мускус · тёплая древесина',tags:['Древесные','Пряные'],prices:{3:3600,5:5300,10:10200,15:14500,20:18600}}
-];
-CATALOG.forEach(function(p){p.img='img/p/'+p.id+'.webp';p.ml=DEFAULT_ML;});
-
 var NOTES = [
   ['Сладкие','#D9A77C'],['Свежие','#9FC3C2'],['Древесные','#8B6B4E'],['Пряные','#B5573B'],['Ванильные','#EAD7AE'],['Фруктовые','#C9707A'],
   ['Цитрусовые','#E3C35B'],['Акватические','#7FA4C4'],['Удовые','#4E3426'],['Табачные','#9A6A3C'],['Кофейные','#5E3F2C'],['Кокосовые','#EFE6D6']
 ];
 
-var CUSTOM = (window.SENTORA_CUSTOM||[]).map(function(p,i){return {id:'c'+(i+1),cat:p.c,brand:p.b,name:p.n,price:p.p,notes:p.t,img:p.i,idx:i};});
+function boot(){
+  var url='data/products.json?t='+Math.floor(Date.now()/60000);
+  fetch(url,{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json();})
+    .then(main)
+    .catch(function(e){console.error('Sentora data error',e);var g=document.getElementById('catGrid');if(g)g.innerHTML='<p class="empty">Не удалось загрузить каталог. Обновите страницу или напишите нам в WhatsApp.</p>';});
+}
 
+function main(DATA){
+var DELIVERY = (DATA.settings&&+DATA.settings.delivery)||1700;
+function volsOf(p){return VOLS.filter(function(v){return +p.prices[v]>0;});}
+var CATALOG = (DATA.rasp||[]).filter(function(p){return !p.hidden&&volsOf(p).length;}).map(function(p){
+  var q=Object.assign({},p);var vs=volsOf(q);q.ml=vs.indexOf(DEFAULT_ML)>=0?DEFAULT_ML:vs[0];q.minPrice=Math.min.apply(null,vs.map(function(v){return +q.prices[v];}));q.tags=q.tags||[];return q;});
+var CUSTOM = (DATA.custom||[]).filter(function(p){return !p.hidden&&+p.price>0;});
 /* ---------- helpers ---------- */
 function $(s,r){return (r||document).querySelector(s);}
 function $$(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s));}
-function money(n){return n.toLocaleString('ru-RU').replace(/ | /g,' ')+' ₸';}
+function money(n){return (+n||0).toLocaleString('ru-RU').replace(/ | /g,' ')+' ₸';}
 function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
 function norm(s){return String(s).toLowerCase().replace(/ё/g,'е');}
 function waLink(text){return 'https://wa.me/'+WA+(text?'?text='+encodeURIComponent(text):'');}
@@ -132,7 +124,7 @@ $('#moodChips').innerHTML=NOTES.slice(0,6).concat([NOTES[8],NOTES[9]]).map(funct
   return '<button class="mood-chip" data-note="'+n[0]+'"><i style="--c:'+n[1]+'"></i>'+n[0]+' <small>'+c+'</small></button>';
 }).join('');
 
-function volsHtml(p){return VOLS.map(function(v){return '<button class="vol'+(v===p.ml?' is-active':'')+'" data-ml="'+v+'" aria-label="'+v+' мл">'+v+'<small>мл</small></button>';}).join('');}
+function volsHtml(p){return volsOf(p).map(function(v){return '<button class="vol'+(v===p.ml?' is-active':'')+'" data-ml="'+v+'" aria-label="'+v+' мл">'+v+'<small>мл</small></button>';}).join('');}
 function cardHtml(p){
   return '<article class="card reveal" data-id="'+p.id+'">'+
     '<button class="card__img" data-open aria-label="Подробнее: '+esc(p.name)+'"><img src="'+p.img+'" alt="'+esc(p.brand+' '+p.name)+' — флакон" loading="lazy"><span class="card__tag">'+(p.cat==='arabic'?'Оригинал':'Аналог')+'</span><span class="card__peek">Пирамида нот</span></button>'+
@@ -151,7 +143,7 @@ function filtered(){
     if(q){var hay=norm([p.brand,p.name,p.desc,p.top,p.heart,p.base,p.tags.join(' ')].join(' '));if(q.split(/\s+/).some(function(w){return hay.indexOf(w)<0;}))return false;}
     return true;
   });
-  if(state.sort!=='default')list=list.slice().sort(function(a,b){return state.sort==='asc'?a.prices[3]-b.prices[3]:b.prices[3]-a.prices[3];});
+  if(state.sort!=='default')list=list.slice().sort(function(a,b){return state.sort==='asc'?a.minPrice-b.minPrice:b.minPrice-a.minPrice;});
   return list;
 }
 function plural(n,a,b,c){var m=n%10,h=n%100;return (m===1&&h!==11)?a:(m>=2&&m<=4&&(h<10||h>=20))?b:c;}
@@ -249,11 +241,14 @@ renderCustom();
 /* ---------- rotating bottle carousel (hero) ---------- */
 (function(){
   var stage=$('#stage'),wrap=$('#carousel');if(!stage||!wrap)return;
-  var ids=['hawas-ice','spicebomb-extreme','le-male-le-parfum','bade-al-oud-glory','the-most-wanted','hawas-fire','le-beau-le-parfum','fakhar-black'];
-  var items=ids.map(function(id){
-    var p=getP(id),b=document.createElement('button');
+  var picks=CATALOG.filter(function(p){return p.featured;});
+  if(picks.length<3)picks=picks.concat(CATALOG.filter(function(p){return !p.featured;})).slice(0,8);
+  picks=picks.slice(0,10);
+  if(!picks.length){stage.querySelector('.stage__caption').hidden=true;return;}
+  var items=picks.map(function(p){
+    var b=document.createElement('button');
     b.className='bottle';b.type='button';b.setAttribute('aria-label',p.brand+' '+p.name);
-    b.innerHTML='<img src="img/cut/'+id+'.webp" alt="" draggable="false">';
+    b.innerHTML='<img src="'+esc(p.cut||p.img)+'" alt="" draggable="false">';
     wrap.appendChild(b);return {el:b,p:p};
   });
   var N=items.length,step=Math.PI*2/N,angle=0,vel=0,auto=-0.0042;
@@ -276,7 +271,7 @@ renderCustom();
       if(z>best){best=z;bi=i;}
     }
     if(bi!==front){front=bi;var p=items[bi].p;
-      $('#capBrand').textContent=p.brand;$('#capName').textContent=p.name;$('#capPrice').textContent='от '+money(p.prices[3])+' за 3 мл';
+      $('#capBrand').textContent=p.brand;$('#capName').textContent=p.name;var v0=volsOf(p)[0];$('#capPrice').textContent='от '+money(p.prices[v0])+' за '+v0+' мл';
       cap.classList.remove('swap');void cap.offsetWidth;cap.classList.add('swap');}
   }
   function tick(now){
@@ -306,5 +301,11 @@ renderCustom();
   layout();requestAnimationFrame(tick);
 })();
 
+$$('[data-delivery]').forEach(function(el){el.textContent=money(DELIVERY);});
+var minAll=CATALOG.length?Math.min.apply(null,CATALOG.map(function(p){return p.minPrice;})):0;
+if(minAll)$$('[data-minprice]').forEach(function(el){el.textContent='от '+money(minAll);});
 renderCart();
+}
+
+boot();
 })();

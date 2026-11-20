@@ -1,0 +1,1308 @@
+{
+ "meta": {
+  "updated": "2026-11-20T09:27:36.190Z"
+ },
+ "settings": {
+  "delivery": 1700
+ },
+ "rasp": [
+  {
+   "id": "khamrah-qahwa",
+   "brand": "Lattafa",
+   "name": "Khamrah Qahwa",
+   "cat": "arabic",
+   "desc": "Пряный · кофейный · сладкий",
+   "top": "Имбирь · корица · кардамон",
+   "heart": "Пралине · засахаренные фрукты · белые цветы",
+   "base": "Кофе · ваниль · бобы тонка · бензоин",
+   "tags": [
+    "Пряные",
+    "Кофейные",
+    "Сладкие",
+    "Ванильные"
+   ],
+   "prices": {
+    "3": 1000,
+    "5": 1500,
+    "10": 2200,
+    "15": 3100,
+    "20": 4000
+   },
+   "img": "img/p/khamrah-qahwa.webp",
+   "cut": "img/cut/khamrah-qahwa.webp",
+   "featured": false,
+   "hidden": false
+  },
+  {
+   "id": "fakhar-black",
+   "brand": "Lattafa",
+   "name": "Fakhar Black",
+   "cat": "arabic",
+   "desc": "Ароматический · свежий · древесный",
+   "top": "Яблоко · бергамот · имбирь",
+   "heart": "Лаванда · шалфей · ягоды можжевельника",
+   "base": "Бобы тонка · амбра · кедр · ветивер",
+   "tags": [
+    "Свежие",
+    "Древесные"
+   ],
+   "prices": {
+    "3": 1100,
+    "5": 1600,
+    "10": 2200,
+    "15": 3100,
+    "20": 4000
+   },
+   "img": "img/p/fakhar-black.webp",
+   "cut": "img/cut/fakhar-black.webp",
+   "featured": true,
+   "hidden": false
+  },
+  {
+   "id": "asad-bourbon",
+   "brand": "Lattafa",
+   "name": "Asad Bourbon",
+   "cat": "arabic",
+   "desc": "Пряный · тёплый · ванильный",
+   "top": "Розовый перец · лаванда · слива мирабель",
+   "heart": "Какао · давана · мускатный орех",
+   "base": "Ваниль · амбра · ветивер",
+   "tags": [
+    "Пряные",
+    "Ванильные",
+    "Сладкие"
+   ],
+   "prices": {
+    "3": 1000,
+    "5": 1500,
+    "10": 2400,
+    "15": 3400,
+    "20": 4400
+   },
+   "img": "img/p/asad-bourbon.webp",
+   "cut": "img/cut/asad-bourbon.webp",
+   "featured": false,
+   "hidden": false
+  },
+  {
+   "id": "bade-al-oud-glory",
+   "brand": "Lattafa",
+   "name": "Bade al Oud for Glory",
+   "cat": "arabic",
+   "desc": "Уд · специи · древесные ноты",
+   "top": "Шафран · мускатный орех · лаванда",
+   "heart": "Уд · пачули",
+   "base": "Уд · пачули · мускус",
+   "tags": [
+    "Удовые",
+    "Пряные",
+    "Древесные"
+   ],
+   "prices": {
+    "3": 1200,
+    "5": 1700,
+    "10": 2700,
+    "15": 3800,
+    "20": 4900
+   },
+   "img": "img/p/bade-al-oud-glory.webp",
+   "cut": "img/cut/bade-al-oud-glory.webp",
+   "featured": true,
+   "hidden": false
+  },
+  {
+   "id": "hawas-fire",
+   "brand": "Rasasi",
+   "name": "Hawas Fire",
+   "cat": "arabic",
+   "desc": "Яркий · фруктовый · пряный",
+   "top": "Бергамот · лимон · фруктовые аккорды",
+   "heart": "Специи · жасмин · морские аккорды",
+   "base": "Амбра · древесные ноты · мускус",
+   "tags": [
+    "Фруктовые",
+    "Пряные",
+    "Сладкие"
+   ],
+   "prices": {
+    "3": 1400,
+    "5": 2000,
+    "10": 3000,
+    "15": 4300,
+    "20": 5500
+   },
+   "img": "img/p/hawas-fire.webp",
+   "cut": "img/cut/hawas-fire.webp",
+   "featured": true,
+   "hidden": false
+  },
+  {
+   "id": "hawas-ice",
+   "brand": "Rasasi",
+   "name": "Hawas Ice",
+   "cat": "arabic",
+   "desc": "Свежий · прохладный · акватический",
+   "top": "Яблоко · лимон · бергамот",
+   "heart": "Морские ноты · слива · апельсиновый цвет",
+   "base": "Мускус · амбра · древесные ноты",
+   "tags": [
+    "Свежие",
+    "Акватические",
+    "Цитрусовые"
+   ],
+   "prices": {
+    "3": 1300,
+    "5": 1900,
+    "10": 2800,
+    "15": 4000,
+    "20": 5100
+   },
+   "img": "img/p/hawas-ice.webp",
+   "cut": "img/cut/hawas-ice.webp",
+   "featured": true,
+   "hidden": false
+  },
+  {
+   "id": "afnan-9pm",
+   "brand": "Afnan",
+   "name": "9PM",
+   "cat": "arabic",
+   "desc": "Сладкий · фруктовый · вечерний",
+   "top": "Яблоко · корица · лаванда · бергамот",
+   "heart": "Апельсиновый цвет · ландыш",
+   "base": "Ваниль · бобы тонка · амбра · пачули",
+   "tags": [
+    "Сладкие",
+    "Фруктовые",
+    "Ванильные"
+   ],
+   "prices": {
+    "3": 1000,
+    "5": 1500,
+    "10": 2000,
+    "15": 2800,
+    "20": 3600
+   },
+   "img": "img/p/afnan-9pm.webp",
+   "cut": "img/cut/afnan-9pm.webp",
+   "featured": false,
+   "hidden": false
+  },
+  {
+   "id": "cdn-intense-man",
+   "brand": "Armaf",
+   "name": "Club de Nuit Intense Man",
+   "cat": "arabic",
+   "desc": "Цитрусы · дымные ноты · древесина",
+   "top": "Лимон · ананас · бергамот · чёрная смородина",
+   "heart": "Берёза · жасмин · роза",
+   "base": "Мускус · амбра · пачули · ваниль",
+   "tags": [
+    "Цитрусовые",
+    "Древесные",
+    "Фруктовые"
+   ],
+   "prices": {
+    "3": 1200,
+    "5": 1800,
+    "10": 3000,
+    "15": 4300,
+    "20": 5500
+   },
+   "img": "img/p/cdn-intense-man.webp",
+   "cut": "img/cut/cdn-intense-man.webp",
+   "featured": false,
+   "hidden": false
+  },
+  {
+   "id": "le-male-le-parfum",
+   "brand": "Jean Paul Gaultier",
+   "name": "Le Male Le Parfum",
+   "cat": "european",
+   "desc": "Кардамон · лаванда · ваниль",
+   "top": "Кардамон",
+   "heart": "Лаванда · ирис",
+   "base": "Ваниль · древесные аккорды",
+   "tags": [
+    "Пряные",
+    "Ванильные",
+    "Сладкие"
+   ],
+   "prices": {
+    "3": 1600,
+    "5": 2400,
+    "10": 4000,
+    "15": 5700,
+    "20": 7300
+   },
+   "img": "img/p/le-male-le-parfum.webp",
+   "cut": "img/cut/le-male-le-parfum.webp",
+   "featured": true,
+   "hidden": false
+  },
+  {
+   "id": "le-beau-le-parfum",
+   "brand": "Jean Paul Gaultier",
+   "name": "Le Beau Le Parfum",
+   "cat": "european",
+   "desc": "Кокос · древесные ноты · бобы тонка",
+   "top": "Ананас · ирис · имбирь",
+   "heart": "Кокос · древесные аккорды",
+   "base": "Бобы тонка · сандал",
+   "tags": [
+    "Кокосовые",
+    "Древесные",
+    "Сладкие"
+   ],
+   "prices": {
+    "3": 1900,
+    "5": 2800,
+    "10": 4700,
+    "15": 6700,
+    "20": 8600
+   },
+   "img": "img/p/le-beau-le-parfum.webp",
+   "cut": "img/cut/le-beau-le-parfum.webp",
+   "featured": true,
+   "hidden": false
+  },
+  {
+   "id": "the-most-wanted",
+   "brand": "Azzaro",
+   "name": "The Most Wanted",
+   "cat": "european",
+   "desc": "Пряный · тёплый · сладкий",
+   "top": "Кардамон",
+   "heart": "Карамель · тёплые пряные ноты",
+   "base": "Амбра · древесные ноты",
+   "tags": [
+    "Пряные",
+    "Сладкие"
+   ],
+   "prices": {
+    "3": 2000,
+    "5": 3000,
+    "10": 4800,
+    "15": 6800,
+    "20": 8700
+   },
+   "img": "img/p/the-most-wanted.webp",
+   "cut": "img/cut/the-most-wanted.webp",
+   "featured": true,
+   "hidden": false
+  },
+  {
+   "id": "spicebomb-extreme",
+   "brand": "Viktor & Rolf",
+   "name": "Spicebomb Extreme",
+   "cat": "european",
+   "desc": "Табак · специи · ваниль",
+   "top": "Чёрный перец · шафран · грейпфрут",
+   "heart": "Корица · тмин · лаванда",
+   "base": "Табак · ваниль · амбра",
+   "tags": [
+    "Табачные",
+    "Пряные",
+    "Ванильные"
+   ],
+   "prices": {
+    "3": 2000,
+    "5": 3000,
+    "10": 4800,
+    "15": 6800,
+    "20": 8700
+   },
+   "img": "img/p/spicebomb-extreme.webp",
+   "cut": "img/cut/spicebomb-extreme.webp",
+   "featured": true,
+   "hidden": false
+  },
+  {
+   "id": "hedonistic",
+   "brand": "Clive Christian",
+   "name": "Hedonistic",
+   "cat": "european",
+   "desc": "Насыщенный · древесный · пряный",
+   "top": "Цитрусы · специи",
+   "heart": "Древесные ноты · ароматические аккорды",
+   "base": "Амбра · мускус · тёплая древесина",
+   "tags": [
+    "Древесные",
+    "Пряные"
+   ],
+   "prices": {
+    "3": 3600,
+    "5": 5300,
+    "10": 10200,
+    "15": 14500,
+    "20": 18600
+   },
+   "img": "img/p/hedonistic.webp",
+   "cut": "img/cut/hedonistic.webp",
+   "featured": false,
+   "hidden": false
+  }
+ ],
+ "custom": [
+  {
+   "id": "c001",
+   "cat": "Европейские реплики",
+   "brand": "Emporio Armani",
+   "name": "Armani Stronger With You Absolutely 100ml",
+   "price": 23000,
+   "notes": "ваниль, ром, каштан, пряности",
+   "img": "img/custom/perfume-001.png",
+   "hidden": false
+  },
+  {
+   "id": "c002",
+   "cat": "Европейские реплики",
+   "brand": "Emporio Armani",
+   "name": "Armani Stronger With You Intensely 100ml",
+   "price": 23500,
+   "notes": "ваниль, амбра, корица, древесные ноты",
+   "img": "img/custom/perfume-002.avif",
+   "hidden": false
+  },
+  {
+   "id": "c003",
+   "cat": "Европейские реплики",
+   "brand": "Emporio Armani",
+   "name": "Armani Stronger With You Frezze 100ml",
+   "price": 22400,
+   "notes": "цитрусы, мята, свежие древесные ноты",
+   "img": "img/custom/perfume-003.avif",
+   "hidden": false
+  },
+  {
+   "id": "c004",
+   "cat": "Европейские реплики",
+   "brand": "Emporio Armani",
+   "name": "Armani Stronger With You Parfum 100ml",
+   "price": 23500,
+   "notes": "ваниль, специи, каштан, амбра",
+   "img": "img/custom/perfume-004.avif",
+   "hidden": false
+  },
+  {
+   "id": "c005",
+   "cat": "Европейские реплики",
+   "brand": "Emporio Armani",
+   "name": "Armani Stronger With You Powerfully 100ml",
+   "price": 22000,
+   "notes": "ваниль, пряности, древесные ноты",
+   "img": "img/custom/perfume-005.avif",
+   "hidden": false
+  },
+  {
+   "id": "c006",
+   "cat": "Европейские реплики",
+   "brand": "Tom Ford",
+   "name": "Tom Ford Tobacco Vanille 100ml",
+   "price": 24000,
+   "notes": "табак, ваниль, какао, сухофрукты",
+   "img": "img/custom/perfume-006.avif",
+   "hidden": false
+  },
+  {
+   "id": "c007",
+   "cat": "Европейские реплики",
+   "brand": "Tom Ford",
+   "name": "Tom Ford Oud Wood",
+   "price": 23000,
+   "notes": "уд, сандал, кардамон, ваниль",
+   "img": "img/custom/perfume-007.avif",
+   "hidden": false
+  },
+  {
+   "id": "c008",
+   "cat": "Европейские реплики",
+   "brand": "Tom Ford",
+   "name": "Tom Ford Soleil Blanc",
+   "price": 25500,
+   "notes": "бергамот, кокос, белые цветы, амбра",
+   "img": "img/custom/perfume-008.avif",
+   "hidden": false
+  },
+  {
+   "id": "c009",
+   "cat": "Европейские реплики",
+   "brand": "Tom Ford",
+   "name": "Tom Ford Lost Cherry",
+   "price": 24300,
+   "notes": "вишня, миндаль, ликёр, ваниль",
+   "img": "img/custom/perfume-009.avif",
+   "hidden": false
+  },
+  {
+   "id": "c010",
+   "cat": "Европейские реплики",
+   "brand": "Tom Ford",
+   "name": "Tom Ford Bitter Peach",
+   "price": 26000,
+   "notes": "персик, кровь апельсина, пачули",
+   "img": "img/custom/perfume-010.avif",
+   "hidden": false
+  },
+  {
+   "id": "c011",
+   "cat": "Европейские реплики",
+   "brand": "Tom Ford",
+   "name": "Tom Ford Ombre Leather",
+   "price": 27500,
+   "notes": "кожа, кардамон, жасмин, амбра",
+   "img": "img/custom/perfume-011.avif",
+   "hidden": false
+  },
+  {
+   "id": "c012",
+   "cat": "Европейские реплики",
+   "brand": "Tom Ford",
+   "name": "Tom Ford Fucking Fabulous",
+   "price": 25200,
+   "notes": "кожа, миндаль, лаванда, ваниль",
+   "img": "img/custom/perfume-012.avif",
+   "hidden": false
+  },
+  {
+   "id": "c013",
+   "cat": "Европейские реплики",
+   "brand": "Initio",
+   "name": "Initio Side Effect",
+   "price": 25000,
+   "notes": "ром, ваниль, корица, табак",
+   "img": "img/custom/perfume-013.avif",
+   "hidden": false
+  },
+  {
+   "id": "c014",
+   "cat": "Европейские реплики",
+   "brand": "Initio",
+   "name": "Initio Paragon",
+   "price": 24000,
+   "notes": "слива, лаванда, бергамот, сандал",
+   "img": "img/custom/perfume-014.avif",
+   "hidden": false
+  },
+  {
+   "id": "c015",
+   "cat": "Европейские реплики",
+   "brand": "Initio",
+   "name": "Initio Psychodelic Love",
+   "price": 28000,
+   "notes": "роза, гелиотроп, ваниль, мускус",
+   "img": "img/custom/perfume-015.avif",
+   "hidden": false
+  },
+  {
+   "id": "c016",
+   "cat": "Европейские реплики",
+   "brand": "Kilian",
+   "name": "Kilian Black Phantom 50ml",
+   "price": 42000,
+   "notes": "ром, кофе, шоколад, карамель",
+   "img": "img/custom/perfume-016.avif",
+   "hidden": false
+  },
+  {
+   "id": "c017",
+   "cat": "Европейские реплики",
+   "brand": "Kilian",
+   "name": "Kilian Sacred Wood 50ml",
+   "price": 38000,
+   "notes": "сандал, молочные ноты, специи",
+   "img": "img/custom/perfume-017.avif",
+   "hidden": false
+  },
+  {
+   "id": "c018",
+   "cat": "Европейские реплики",
+   "brand": "Kilian",
+   "name": "Kilian Good girl Gone Bad 50ml",
+   "price": 36000,
+   "notes": "османтус, жасмин, тубероза",
+   "img": "img/custom/perfume-018.avif",
+   "hidden": false
+  },
+  {
+   "id": "c019",
+   "cat": "Европейские реплики",
+   "brand": "Kilian",
+   "name": "Kilian Love 50ml",
+   "price": 37500,
+   "notes": "маршмеллоу, роза, ваниль, мускус",
+   "img": "img/custom/perfume-019.avif",
+   "hidden": false
+  },
+  {
+   "id": "c020",
+   "cat": "Европейские реплики",
+   "brand": "Kilian",
+   "name": "Kilian Angels Share On The Rocks 50ml",
+   "price": 34400,
+   "notes": "коньяк, дуб, корица, пралине",
+   "img": "img/custom/perfume-020.avif",
+   "hidden": false
+  },
+  {
+   "id": "c021",
+   "cat": "Европейские реплики",
+   "brand": "Kilian",
+   "name": "Kilian Angels Share Paradis 50ml",
+   "price": 39900,
+   "notes": "коньяк, малина, пралине, ваниль",
+   "img": "img/custom/perfume-021.avif",
+   "hidden": false
+  },
+  {
+   "id": "c022",
+   "cat": "Европейские реплики",
+   "brand": "Roja",
+   "name": "Roja Elysium Pour Homme Parfum Cologne",
+   "price": 28000,
+   "notes": "цитрусы, яблоко, ветивер, амбра",
+   "img": "img/custom/perfume-022.avif",
+   "hidden": false
+  },
+  {
+   "id": "c023",
+   "cat": "Европейские реплики",
+   "brand": "Nishane",
+   "name": "Nishane Hacivat",
+   "price": 27000,
+   "notes": "ананас, грейпфрут, дубовый мох, древесина",
+   "img": "img/custom/perfume-023.avif",
+   "hidden": false
+  },
+  {
+   "id": "c024",
+   "cat": "Европейские реплики",
+   "brand": "Orto Parisi",
+   "name": "Orto Parisi Terroni",
+   "price": 31000,
+   "notes": "земля, дым, древесина, пачули",
+   "img": "img/custom/perfume-024.avif",
+   "hidden": false
+  },
+  {
+   "id": "c025",
+   "cat": "Европейские реплики",
+   "brand": "Orto Parisi",
+   "name": "Orto Parisi Megamare",
+   "price": 33000,
+   "notes": "морские ноты, соль, водоросли, амбра",
+   "img": "img/custom/perfume-025.avif",
+   "hidden": false
+  },
+  {
+   "id": "c026",
+   "cat": "Европейские реплики",
+   "brand": "Orto Parisi",
+   "name": "Orto Parisi Risvelium",
+   "price": 32000,
+   "notes": "цитрусы, морские ноты, древесные аккорды",
+   "img": "img/custom/perfume-026.avif",
+   "hidden": false
+  },
+  {
+   "id": "c027",
+   "cat": "Европейские реплики",
+   "brand": "Orto Parisi",
+   "name": "Orto Parisi CUOIUM",
+   "price": 36000,
+   "notes": "кожа, дым, древесина, животные ноты",
+   "img": "img/custom/perfume-027.avif",
+   "hidden": false
+  },
+  {
+   "id": "c028",
+   "cat": "Европейские реплики",
+   "brand": "Parfums de Marly",
+   "name": "PDM Althair",
+   "price": 31000,
+   "notes": "ваниль, корица, пралине, древесина",
+   "img": "img/custom/perfume-028.avif",
+   "hidden": false
+  },
+  {
+   "id": "c029",
+   "cat": "Европейские реплики",
+   "brand": "Parfums de Marly",
+   "name": "PDM Kalan",
+   "price": 31500,
+   "notes": "перец, апельсин, специи, древесина",
+   "img": "img/custom/perfume-029.avif",
+   "hidden": false
+  },
+  {
+   "id": "c030",
+   "cat": "Европейские реплики",
+   "brand": "Parfums de Marly",
+   "name": "PDM Layton",
+   "price": 33000,
+   "notes": "яблоко, лаванда, ваниль, специи",
+   "img": "img/custom/perfume-030.avif",
+   "hidden": false
+  },
+  {
+   "id": "c031",
+   "cat": "Европейские реплики",
+   "brand": "Parfums de Marly",
+   "name": "PDM Sedley",
+   "price": 34500,
+   "notes": "мята, бергамот, водные ноты, древесина",
+   "img": "img/custom/perfume-031.avif",
+   "hidden": false
+  },
+  {
+   "id": "c032",
+   "cat": "Европейские реплики",
+   "brand": "Parfums de Marly",
+   "name": "PDM Greenley",
+   "price": 34000,
+   "notes": "зелёное яблоко, цитрусы, кашмеран",
+   "img": "img/custom/perfume-032.avif",
+   "hidden": false
+  },
+  {
+   "id": "c033",
+   "cat": "Европейские реплики",
+   "brand": "Amouage",
+   "name": "Amouage Rose Incense",
+   "price": 31000,
+   "notes": "роза, ладан, специи, древесина",
+   "img": "img/custom/perfume-033.avif",
+   "hidden": false
+  },
+  {
+   "id": "c034",
+   "cat": "Европейские реплики",
+   "brand": "Amouage",
+   "name": "Amouage Silver Oud",
+   "price": 32000,
+   "notes": "уд, роза, амбра, древесина",
+   "img": "img/custom/perfume-034.avif",
+   "hidden": false
+  },
+  {
+   "id": "c035",
+   "cat": "Европейские реплики",
+   "brand": "Amouage",
+   "name": "Amouage Woods Symphony",
+   "price": 30500,
+   "notes": "древесина, специи, смолы",
+   "img": "img/custom/perfume-035.avif",
+   "hidden": false
+  },
+  {
+   "id": "c036",
+   "cat": "Европейские реплики",
+   "brand": "Amouage",
+   "name": "Amouage Royal Tobacco",
+   "price": 34000,
+   "notes": "табак, ваниль, специи, смолы",
+   "img": "img/custom/perfume-036.avif",
+   "hidden": false
+  },
+  {
+   "id": "c037",
+   "cat": "Европейские реплики",
+   "brand": "Tiziana Terenzi",
+   "name": "Kirke Tiziana Terenzi 100ml",
+   "price": 25000,
+   "notes": "маракуйя, персик, груша, мускус",
+   "img": "img/custom/perfume-037.avif",
+   "hidden": false
+  },
+  {
+   "id": "c038",
+   "cat": "Европейские реплики",
+   "brand": "Nasomatto",
+   "name": "Black Afgano 30ml",
+   "price": 18000,
+   "notes": "уд, кофе, смолы, табак",
+   "img": "img/custom/perfume-038.avif",
+   "hidden": false
+  },
+  {
+   "id": "c039",
+   "cat": "Европейские реплики",
+   "brand": "Paco Rabanne",
+   "name": "Paco Rabanne Invictus",
+   "price": 16000,
+   "notes": "грейпфрут, морские ноты, лавр",
+   "img": "img/custom/perfume-039.avif",
+   "hidden": false
+  },
+  {
+   "id": "c040",
+   "cat": "Европейские реплики",
+   "brand": "Paco Rabanne",
+   "name": "Paco Rabanne Invictus Parfum",
+   "price": 17000,
+   "notes": "лаванда, морские ноты, древесина",
+   "img": "img/custom/perfume-040.avif",
+   "hidden": false
+  },
+  {
+   "id": "c041",
+   "cat": "Европейские реплики",
+   "brand": "Paco Rabanne",
+   "name": "Paco Rabanne Invictus Victory",
+   "price": 19000,
+   "notes": "лимон, ваниль, амбра, бобы тонка",
+   "img": "img/custom/perfume-041.avif",
+   "hidden": false
+  },
+  {
+   "id": "c042",
+   "cat": "Европейские реплики",
+   "brand": "Xerjoff",
+   "name": "Xerjoff Naxos",
+   "price": 43000,
+   "notes": "лаванда, мёд, табак, ваниль",
+   "img": "img/custom/perfume-042.avif",
+   "hidden": false
+  },
+  {
+   "id": "c043",
+   "cat": "Европейские реплики",
+   "brand": "Xerjoff",
+   "name": "Xerjoff Alexandria II",
+   "price": 46500,
+   "notes": "уд, роза, корица, амбра",
+   "img": "img/custom/perfume-043.avif",
+   "hidden": false
+  },
+  {
+   "id": "c044",
+   "cat": "Европейские реплики",
+   "brand": "Azzaro",
+   "name": "The Most Wanted EDP Intense 100ml",
+   "price": 20000,
+   "notes": "кардамон, карамель, амбра",
+   "img": "img/custom/perfume-044.avif",
+   "hidden": false
+  },
+  {
+   "id": "c045",
+   "cat": "Европейские реплики",
+   "brand": "Azzaro",
+   "name": "The Most Wanted Parfum 100ml",
+   "price": 21000,
+   "notes": "имбирь, древесина, ваниль",
+   "img": "img/custom/perfume-045.avif",
+   "hidden": false
+  },
+  {
+   "id": "c046",
+   "cat": "Европейские реплики",
+   "brand": "Azzaro",
+   "name": "The Most Wanted EDT 100ml",
+   "price": 18000,
+   "notes": "кардамон, карамель, древесные ноты",
+   "img": "img/custom/perfume-046.avif",
+   "hidden": false
+  },
+  {
+   "id": "c047",
+   "cat": "Европейские реплики",
+   "brand": "MFK",
+   "name": "Maison Francis Kurkdjian Baccarat Rouge 540 70ml",
+   "price": 23000,
+   "notes": "шафран, жасмин, амбра, кедр",
+   "img": "img/custom/perfume-047.avif",
+   "hidden": false
+  },
+  {
+   "id": "c048",
+   "cat": "Европейские реплики",
+   "brand": "Louis Vuitton",
+   "name": "LV Imagination 100ml",
+   "price": 33000,
+   "notes": "цитрусы, имбирь, чай, амбра",
+   "img": "img/custom/perfume-048.avif",
+   "hidden": false
+  },
+  {
+   "id": "c049",
+   "cat": "Европейские реплики",
+   "brand": "Louis Vuitton",
+   "name": "LV Ombre Nomade 100ml",
+   "price": 35500,
+   "notes": "уд, роза, шафран, бензоин",
+   "img": "img/custom/perfume-049.avif",
+   "hidden": false
+  },
+  {
+   "id": "c050",
+   "cat": "Европейские реплики",
+   "brand": "Louis Vuitton",
+   "name": "LV Pacific Chill 100ml",
+   "price": 34000,
+   "notes": "цитрусы, мята, чёрная смородина",
+   "img": "img/custom/perfume-050.avif",
+   "hidden": false
+  },
+  {
+   "id": "c051",
+   "cat": "Европейские реплики",
+   "brand": "Louis Vuitton",
+   "name": "LV L'immensite 100ml",
+   "price": 33000,
+   "notes": "грейпфрут, имбирь, амбра, древесина",
+   "img": "img/custom/perfume-051.avif",
+   "hidden": false
+  },
+  {
+   "id": "c052",
+   "cat": "Европейские реплики",
+   "brand": "Clive Christian",
+   "name": "Clive Christian Hedonistic 50ml",
+   "price": 35000,
+   "notes": "цитрусы, специи, древесина",
+   "img": "img/custom/perfume-052.avif",
+   "hidden": false
+  },
+  {
+   "id": "c053",
+   "cat": "Европейские реплики",
+   "brand": "Clive Christian",
+   "name": "Clive Christian Amberwood 50ml",
+   "price": 38000,
+   "notes": "амбровые ноты, древесина, специи",
+   "img": "img/custom/perfume-053.avif",
+   "hidden": false
+  },
+  {
+   "id": "c054",
+   "cat": "Европейские реплики",
+   "brand": "Clive Christian",
+   "name": "Clive Christian Ecstatic 50ml",
+   "price": 36800,
+   "notes": "цветы, цитрусы, мускус",
+   "img": "img/custom/perfume-054.avif",
+   "hidden": false
+  },
+  {
+   "id": "c055",
+   "cat": "Европейские реплики",
+   "brand": "Creed",
+   "name": "Creed Aventus",
+   "price": 20000,
+   "notes": "ананас, бергамот, берёза, мускус",
+   "img": "img/custom/perfume-055.avif",
+   "hidden": false
+  },
+  {
+   "id": "c056",
+   "cat": "Европейские реплики",
+   "brand": "Creed",
+   "name": "Creed Aventus Absolu",
+   "price": 22000,
+   "notes": "цитрусы, ананас, специи, древесина",
+   "img": "img/custom/perfume-056.avif",
+   "hidden": false
+  },
+  {
+   "id": "c057",
+   "cat": "Арабские оригиналы",
+   "brand": "Afnan",
+   "name": "Afnan Thurati Blue",
+   "price": 28000,
+   "notes": "цитрусы, лаванда, амбра, древесина",
+   "img": "img/custom/perfume-057.avif",
+   "hidden": false
+  },
+  {
+   "id": "c058",
+   "cat": "Арабские оригиналы",
+   "brand": "Afnan",
+   "name": "Afnan Thurati Electric",
+   "price": 25500,
+   "notes": "цитрусы, специи, древесные ноты",
+   "img": "img/custom/perfume-058.avif",
+   "hidden": false
+  },
+  {
+   "id": "c059",
+   "cat": "Арабские оригиналы",
+   "brand": "Afnan",
+   "name": "Afnan 9PM Rebel",
+   "price": 19000,
+   "notes": "фрукты, ваниль, карамель, древесина",
+   "img": "img/custom/perfume-059.avif",
+   "hidden": false
+  },
+  {
+   "id": "c060",
+   "cat": "Арабские оригиналы",
+   "brand": "Afnan",
+   "name": "Afnan 9PM",
+   "price": 17000,
+   "notes": "яблоко, корица, ваниль, амбра",
+   "img": "img/custom/perfume-060.avif",
+   "hidden": false
+  },
+  {
+   "id": "c061",
+   "cat": "Арабские оригиналы",
+   "brand": "Afnan",
+   "name": "Afnan 9PM Night Out",
+   "price": 22500,
+   "notes": "пряности, ваниль, древесина",
+   "img": "img/custom/perfume-061.avif",
+   "hidden": false
+  },
+  {
+   "id": "c062",
+   "cat": "Арабские оригиналы",
+   "brand": "Afnan",
+   "name": "Afnan Supremacy Collectors Edition",
+   "price": 22000,
+   "notes": "ананас, бергамот, древесина, мускус",
+   "img": "img/custom/perfume-062.avif",
+   "hidden": false
+  },
+  {
+   "id": "c063",
+   "cat": "Арабские оригиналы",
+   "brand": "Afnan",
+   "name": "Afnan 9PM Elixir",
+   "price": 18000,
+   "notes": "ваниль, специи, амбра",
+   "img": "img/custom/perfume-063.avif",
+   "hidden": false
+  },
+  {
+   "id": "c064",
+   "cat": "Арабские оригиналы",
+   "brand": "Rasasi",
+   "name": "Rasasi Hawas Ice",
+   "price": 17400,
+   "notes": "цитрусы, мята, морские ноты",
+   "img": "img/custom/perfume-064.avif",
+   "hidden": false
+  },
+  {
+   "id": "c065",
+   "cat": "Арабские оригиналы",
+   "brand": "Rasasi",
+   "name": "Rasasi Hawas Fire",
+   "price": 16500,
+   "notes": "фрукты, специи, амбра",
+   "img": "img/custom/perfume-065.avif",
+   "hidden": false
+  },
+  {
+   "id": "c066",
+   "cat": "Арабские оригиналы",
+   "brand": "Rasasi",
+   "name": "Rasasi Hawas for Him",
+   "price": 17000,
+   "notes": "цитрусы, корица, морские ноты",
+   "img": "img/custom/perfume-066.avif",
+   "hidden": false
+  },
+  {
+   "id": "c067",
+   "cat": "Арабские оригиналы",
+   "brand": "Rasasi",
+   "name": "Rasasi Hawas Tropical",
+   "price": 19700,
+   "notes": "тропические фрукты, цитрусы, мускус",
+   "img": "img/custom/perfume-067.avif",
+   "hidden": false
+  },
+  {
+   "id": "c068",
+   "cat": "Арабские оригиналы",
+   "brand": "Rasasi",
+   "name": "Rasasi Hawas Black",
+   "price": 16500,
+   "notes": "пряности, древесина, амбра",
+   "img": "img/custom/perfume-068.avif",
+   "hidden": false
+  },
+  {
+   "id": "c069",
+   "cat": "Арабские оригиналы",
+   "brand": "French Avenue",
+   "name": "French Avenue Liquid Brun",
+   "price": 23000,
+   "notes": "ваниль, корица, пралине, амбра",
+   "img": "img/custom/perfume-069.avif",
+   "hidden": false
+  },
+  {
+   "id": "c070",
+   "cat": "Арабские оригиналы",
+   "brand": "French Avenue",
+   "name": "French Avenue Vulcan Feu",
+   "price": 24400,
+   "notes": "фрукты, специи, древесина",
+   "img": "img/custom/perfume-070.avif",
+   "hidden": false
+  },
+  {
+   "id": "c071",
+   "cat": "Арабские оригиналы",
+   "brand": "French Avenue",
+   "name": "French Avenue Azzure Oud",
+   "price": 24000,
+   "notes": "уд, цитрусы, специи, амбра",
+   "img": "img/custom/perfume-071.avif",
+   "hidden": false
+  },
+  {
+   "id": "c072",
+   "cat": "Арабские оригиналы",
+   "brand": "French Avenue",
+   "name": "French Avenue Cocoa Morado",
+   "price": 28300,
+   "notes": "какао, ваниль, фрукты, древесина",
+   "img": "img/custom/perfume-072.avif",
+   "hidden": false
+  },
+  {
+   "id": "c073",
+   "cat": "Арабские оригиналы",
+   "brand": "French Avenue",
+   "name": "French Avenue Aether",
+   "price": 26000,
+   "notes": "цитрусы, древесина, амбра",
+   "img": "img/custom/perfume-073.avif",
+   "hidden": false
+  },
+  {
+   "id": "c074",
+   "cat": "Арабские оригиналы",
+   "brand": "Al Haramain",
+   "name": "Al Haramain Amber Oud Aqua Dubai",
+   "price": 28000,
+   "notes": "цитрусы, водные ноты, амбра",
+   "img": "img/custom/perfume-074.avif",
+   "hidden": false
+  },
+  {
+   "id": "c075",
+   "cat": "Арабские оригиналы",
+   "brand": "Lattafa",
+   "name": "Lattafa Khamrah Qahwa",
+   "price": 18000,
+   "notes": "кофе, корица, ваниль, пралине",
+   "img": "img/custom/perfume-075.avif",
+   "hidden": false
+  },
+  {
+   "id": "c076",
+   "cat": "Арабские оригиналы",
+   "brand": "Lattafa",
+   "name": "Lattafa Asad Bourbon",
+   "price": 13000,
+   "notes": "ваниль, какао, специи, амбра",
+   "img": "img/custom/perfume-076.avif",
+   "hidden": false
+  },
+  {
+   "id": "c077",
+   "cat": "Арабские оригиналы",
+   "brand": "Lattafa",
+   "name": "Lattafa Art Of Universe",
+   "price": 23000,
+   "notes": "цитрусы, фрукты, древесина",
+   "img": "img/custom/perfume-077.avif",
+   "hidden": false
+  },
+  {
+   "id": "c078",
+   "cat": "Арабские оригиналы",
+   "brand": "Lattafa",
+   "name": "Lattafa Fakhar Black",
+   "price": 13300,
+   "notes": "яблоко, лаванда, бергамот, древесина",
+   "img": "img/custom/perfume-078.avif",
+   "hidden": false
+  },
+  {
+   "id": "c079",
+   "cat": "Арабские оригиналы",
+   "brand": "Lattafa",
+   "name": "Lattafa His Confession",
+   "price": 20000,
+   "notes": "ваниль, специи, древесина",
+   "img": "img/custom/perfume-079.avif",
+   "hidden": false
+  },
+  {
+   "id": "c080",
+   "cat": "Арабские оригиналы",
+   "brand": "Lattafa",
+   "name": "Lattafa Her Confession",
+   "price": 19000,
+   "notes": "ваниль, цветы, какао, амбра",
+   "img": "img/custom/perfume-080.avif",
+   "hidden": false
+  },
+  {
+   "id": "c081",
+   "cat": "Оригинал Европа",
+   "brand": "Maison Margiela",
+   "name": "Maison Margiela Replica By The Fireplace 100ml",
+   "price": 52000,
+   "notes": "каштан, гвоздика, ваниль, дым",
+   "img": "img/custom/perfume-081.avif",
+   "hidden": false
+  },
+  {
+   "id": "c082",
+   "cat": "Оригинал Европа",
+   "brand": "Maison Margiela",
+   "name": "Maison Margiela Replica Sailing Day 100ml",
+   "price": 47000,
+   "notes": "морские ноты, можжевельник, амбра",
+   "img": "img/custom/perfume-082.avif",
+   "hidden": false
+  },
+  {
+   "id": "c083",
+   "cat": "Оригинал Европа",
+   "brand": "Maison Margiela",
+   "name": "Maison Margiela Replica Jazz Club 100ml",
+   "price": 48000,
+   "notes": "ром, табак, ваниль, розовый перец",
+   "img": "img/custom/perfume-083.avif",
+   "hidden": false
+  },
+  {
+   "id": "c084",
+   "cat": "Оригинал Европа",
+   "brand": "Valentino",
+   "name": "Valentino Born In Roma Purple Melancholia 100ml",
+   "price": 78000,
+   "notes": "цветы, ваниль, древесина",
+   "img": "img/custom/perfume-084.avif",
+   "hidden": false
+  },
+  {
+   "id": "c085",
+   "cat": "Оригинал Европа",
+   "brand": "Valentino",
+   "name": "Valentino Born In Roma Coral Fantasy 100ml",
+   "price": 73000,
+   "notes": "яблоко, апельсин, ваниль",
+   "img": "img/custom/perfume-085.avif",
+   "hidden": false
+  },
+  {
+   "id": "c086",
+   "cat": "Оригинал Европа",
+   "brand": "Valentino",
+   "name": "Valentino Born In Roma Intense 100ml",
+   "price": 70000,
+   "notes": "ваниль, жасмин, бензоин",
+   "img": "img/custom/perfume-086.avif",
+   "hidden": false
+  },
+  {
+   "id": "c087",
+   "cat": "Оригинал Европа",
+   "brand": "Valentino",
+   "name": "Valentino Born In Roma EXTRADOSE 100ml",
+   "price": 85000,
+   "notes": "ваниль, цветы, амбра",
+   "img": "img/custom/perfume-087.avif",
+   "hidden": false
+  },
+  {
+   "id": "c088",
+   "cat": "Оригинал Европа",
+   "brand": "Valentino",
+   "name": "Valentino Born in Roma Green Stravaganza 100ml",
+   "price": 74000,
+   "notes": "чай, бергамот, ваниль",
+   "img": "img/custom/perfume-088.avif",
+   "hidden": false
+  },
+  {
+   "id": "c089",
+   "cat": "Оригинал Европа",
+   "brand": "Valentino",
+   "name": "Valentino Born In Roma 100ml",
+   "price": 71000,
+   "notes": "чёрная смородина, жасмин, ваниль",
+   "img": "img/custom/perfume-089.avif",
+   "hidden": false
+  },
+  {
+   "id": "c090",
+   "cat": "Оригинал Европа",
+   "brand": "Emporio Armani",
+   "name": "Armani Stronger With You Intensely 100ml",
+   "price": 68500,
+   "notes": "ваниль, амбра, корица, древесина",
+   "img": "img/custom/perfume-090.avif",
+   "hidden": false
+  },
+  {
+   "id": "c091",
+   "cat": "Оригинал Европа",
+   "brand": "Emporio Armani",
+   "name": "Armani Stronger With You Powerfully 100ml",
+   "price": 70000,
+   "notes": "ваниль, специи, каштан",
+   "img": "img/custom/perfume-091.avif",
+   "hidden": false
+  },
+  {
+   "id": "c092",
+   "cat": "Оригинал Европа",
+   "brand": "Dior",
+   "name": "Dior Sauvage 100ml",
+   "price": 70000,
+   "notes": "бергамот, перец, амброксан",
+   "img": "img/custom/perfume-092.avif",
+   "hidden": false
+  },
+  {
+   "id": "c093",
+   "cat": "Оригинал Европа",
+   "brand": "Dior",
+   "name": "Dior Homme Intense 100ml",
+   "price": 71000,
+   "notes": "ирис, амбра, древесина",
+   "img": "img/custom/perfume-093.avif",
+   "hidden": false
+  },
+  {
+   "id": "c094",
+   "cat": "Оригинал Европа",
+   "brand": "Dior",
+   "name": "Dior Homme Cologne 125ml",
+   "price": 69000,
+   "notes": "бергамот, грейпфрут, мускус",
+   "img": "img/custom/perfume-094.avif",
+   "hidden": false
+  },
+  {
+   "id": "c095",
+   "cat": "Оригинал Европа",
+   "brand": "Yves Saint Laurent",
+   "name": "YSL Y 100ml",
+   "price": 70000,
+   "notes": "яблоко, шалфей, древесина",
+   "img": "img/custom/perfume-095.avif",
+   "hidden": false
+  },
+  {
+   "id": "c096",
+   "cat": "Оригинал Европа",
+   "brand": "Yves Saint Laurent",
+   "name": "YSL La Nuit De L'homme 100ml",
+   "price": 71000,
+   "notes": "кардамон, лаванда, кедр",
+   "img": "img/custom/perfume-096.avif",
+   "hidden": false
+  }
+ ]
+}

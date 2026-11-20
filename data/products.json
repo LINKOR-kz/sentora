@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-20T10:09:36.246Z"
+  "updated": "2026-11-20T10:14:27.119Z"
  },
  "settings": {
   "delivery": 1700
@@ -134,7 +134,7 @@
    "img": "img/p/hawas-fire.webp",
    "cut": "img/cut/hawas-fire.webp",
    "featured": true,
-   "hidden": true
+   "hidden": false
   },
   {
    "id": "hawas-ice",

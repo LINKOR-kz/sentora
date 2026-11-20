@@ -1,14 +1,14 @@
 {
  "meta": {
-  "updated": "2026-11-20T10:01:48.589Z"
+  "updated": "2026-11-20T10:03:39.235Z"
  },
  "settings": {
-  "delivery": 1705
+  "delivery": 1700
  },
  "rasp": [
   {
    "id": "khamrah-qahwa",
-   "brand": "Lattafa зщз",
+   "brand": "Lattafa",
    "name": "Khamrah Qahwa",
    "cat": "arabic",
    "desc": "Пряный · кофейный · сладкий",

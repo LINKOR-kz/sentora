@@ -9,8 +9,14 @@ var NOTES = [
   ['Цитрусовые','#E3C35B'],['Акватические','#7FA4C4'],['Удовые','#4E3426'],['Табачные','#9A6A3C'],['Кофейные','#5E3F2C'],['Кокосовые','#EFE6D6']
 ];
 
+/* Каталог всегда берётся с основного сайта (там его меняет админка), даже если сайт стоит на другом хостинге. */
+var HOME='https://linkor-kz.github.io/sentora/';
+var REMOTE=!/(^|\.)linkor-kz\.github\.io$|^localhost$|^127\.0\.0\.1$/.test(location.hostname);
+var BASE=REMOTE?HOME:'';
+function fixImg(p){return p&&/^img\/u\//.test(p)?BASE+p:p;}
+
 function boot(){
-  var url='data/products.json?t='+Math.floor(Date.now()/60000);
+  var url=BASE+'data/products.json?t='+Math.floor(Date.now()/60000);
   fetch(url,{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json();})
     .then(main)
     .catch(function(e){console.error('Sentora data error',e);var g=document.getElementById('catGrid');if(g)g.innerHTML='<p class="empty">Не удалось загрузить каталог. Обновите страницу или напишите нам в WhatsApp.</p>';});
@@ -20,8 +26,8 @@ function main(DATA){
 var DELIVERY = (DATA.settings&&+DATA.settings.delivery)||1700;
 function volsOf(p){return VOLS.filter(function(v){return +p.prices[v]>0;});}
 var CATALOG = (DATA.rasp||[]).filter(function(p){return !p.hidden&&volsOf(p).length;}).map(function(p){
-  var q=Object.assign({},p);var vs=volsOf(q);q.ml=vs.indexOf(DEFAULT_ML)>=0?DEFAULT_ML:vs[0];q.minPrice=Math.min.apply(null,vs.map(function(v){return +q.prices[v];}));q.tags=q.tags||[];return q;});
-var CUSTOM = (DATA.custom||[]).filter(function(p){return !p.hidden&&+p.price>0;});
+  var q=Object.assign({},p);q.img=fixImg(q.img);q.cut=fixImg(q.cut);var vs=volsOf(q);q.ml=vs.indexOf(DEFAULT_ML)>=0?DEFAULT_ML:vs[0];q.minPrice=Math.min.apply(null,vs.map(function(v){return +q.prices[v];}));q.tags=q.tags||[];return q;});
+var CUSTOM = (DATA.custom||[]).filter(function(p){return !p.hidden&&+p.price>0;}).map(function(p){var q=Object.assign({},p);q.img=fixImg(q.img);return q;});
 /* ---------- helpers ---------- */
 function $(s,r){return (r||document).querySelector(s);}
 function $$(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s));}
